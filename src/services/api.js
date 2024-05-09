@@ -1,7 +1,7 @@
 import axios from 'axios'
 
 const api = axios.create({
-    baseURL: "https://money-web-blush.vercel.app/"
+    baseURL: "http://192.168.3.34:3000"
 })
 
 export default api;
