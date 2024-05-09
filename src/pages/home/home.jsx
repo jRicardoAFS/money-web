@@ -56,7 +56,6 @@ const Home = () => {
       setTotal(soma)
 
     } catch (error) {
-      alert("Erro ao buscar dados")
     }
 
   }
